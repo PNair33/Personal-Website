@@ -161,6 +161,20 @@ section+section {
     filter: drop-shadow(0 0 10px #64ffda);
 }
 
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.skill-name {
+  font-size: 0.9rem;
+  color: var(--text-color); /* adjust based on your color scheme */
+  text-align: center;
+  font-weight: 400;
+}
+
 /* Experience section */
 #experience h2 {
     font-weight: 600;
